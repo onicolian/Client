@@ -1,0 +1,14 @@
+﻿<Window x:Class="Client.OrderList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Order" Height="450" Width="514.831">
+    <Grid>
+        <ScrollViewer Name="scroll" CanContentScroll="True" Margin="0,0,-0.4,1">
+            <StackPanel x:Name = "MainRoot" ></StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
